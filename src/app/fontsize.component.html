@@ -1,0 +1,9 @@
+<div>
+    <h2 [style.font-size]="fontSize">
+        {{message}}
+    </h2>
+</div>
+<div>
+    Font Size
+    <input type="range" min="1" max ="10" (change)="fontSizeChanged($event)">
+</div>
